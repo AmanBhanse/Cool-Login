@@ -34,15 +34,13 @@ nav{
 }
 
 .wing{
-  display: flex;
+  display: grid;
+  grid-template-columns: 20% 20% 20%;
+  column-gap: 10%;
   align-items: center;
   justify-content: center;
 }
 
-.wing svg{
-  width: 90%;
-  height: auto;
-}
 
 .login-component{
   display: flex;
@@ -72,4 +70,56 @@ nav{
   display: grid;
   grid-template-columns: 50% 50%;
   row-gap: 100px;
+}
+
+
+
+.feather{
+  
+  border-color:transparent;
+  border-radius: 6px;
+  min-width: 20%;
+  min-height: 40%;
+  background-color: #000000;
+}
+
+.middle{
+  background-color: #163A1E;
+  animation: middleWingFly 2s both infinite ease-in-out alternate;
+}
+
+.right{
+  background-color: #E0EEDE;
+  animation: sideWingFly 2s both infinite ease-in-out alternate;
+}
+
+.left{
+  background-color:#F5C654;
+  animation: sideWingFly 2s both infinite ease-in-out alternate;
+}
+
+@keyframes middleWingFly {
+    0%{
+      transform: translateY(-50%);
+    }
+    100%{
+      transform: translateY(50%);
+    }
+}
+
+@keyframes sideWingFly {
+  0%{
+    transform: translateY(50%);
+  }
+  100%{
+    transform: translateY(-50%);
+  }
+}
+
+.slider{
+  position:absolute;
+  max-width:25%;
+  max-width: 25%;
+  min-width:25%;
+  min-width: 25%;
 }

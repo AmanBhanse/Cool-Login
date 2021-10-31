@@ -10,7 +10,10 @@ function LoginComponent() {
                             <SignUp />
                         </div>
                         <div className="log-in-container">label</div>
+                        
                     </div>
+
+                    <div className="slider"></div>
                 </div>
         </div>
     )

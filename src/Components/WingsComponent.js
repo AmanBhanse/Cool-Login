@@ -2,49 +2,18 @@ import React from "react";
 
 function WingsComponent() {
   return (
-    <div className="wing">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="476"
-        height="639"
-        viewBox="0 0 476 639"
-      >
-        <g id="Group_2" data-name="Group 2" transform="translate(-22 -246)">
-          <g
-            id="Rectangle_7"
-            data-name="Rectangle 7"
-            transform="translate(22 246)"
-            fill="#e0eede"
-            stroke="#707070"
-            stroke-width="1"
-          >
-            <rect width="102" height="387" stroke="none" />
-            <rect x="0.5" y="0.5" width="101" height="386" fill="none" />
-          </g>
-          <g
-            id="Rectangle_8"
-            data-name="Rectangle 8"
-            transform="translate(396 246)"
-            fill="#f5c654"
-            stroke="#707070"
-            stroke-width="1"
-          >
-            <rect width="102" height="387" stroke="none" />
-            <rect x="0.5" y="0.5" width="101" height="386" fill="none" />
-          </g>
-          <g
-            id="Rectangle_9"
-            data-name="Rectangle 9"
-            transform="translate(209 498)"
-            fill="#163a1e"
-            stroke="#707070"
-            stroke-width="1"
-          >
-            <rect width="102" height="387" stroke="none" />
-            <rect x="0.5" y="0.5" width="101" height="386" fill="none" />
-          </g>
-        </g>
-      </svg>
+    <div className="wing ">
+      <div className="feather left">
+
+      </div >
+
+      <div className="feather middle">
+        
+      </div>
+
+      <div className="feather right">
+        
+      </div>
     </div>
   );
 }
